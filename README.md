@@ -6,8 +6,8 @@ Juste a git for simple import of makepbo to linux
 
 ### Install libraries
 
-- For Debian/Ubuntu, run this : ```sudo apt-get install liblzo2-2 libvorbis0a libvorbisfile3 libvorbisenc2 libogg0```
-- For RHEL/CentOS, run this : ```sudo yum install lzo libvorbis libogg```
+- For Debian/Ubuntu, run this : ```apt-get install liblzo2-2 libvorbis0a libvorbisfile3 libvorbisenc2 libogg0```
+- For RHEL/CentOS, run this : ```yum install lzo libvorbis libogg```
 
 ### Install executables
 
