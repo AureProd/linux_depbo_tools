@@ -12,6 +12,7 @@ Juste a git for simple import of makepbo to linux
 ### Install executables
 
 - Copy all elements of [bin](https://github.com/HuetJB/linux_makepbo/tree/main/depbo-tools-0.6.24/bin) to ```/bin``` of your linux server.
+- Copy all element of [lib](https://github.com/HuetJB/linux_makepbo/tree/main/depbo-tools-0.6.24/lib) to ```/usr/local/lib/``` of your linux server.
 
 ### Finish installation 
 
