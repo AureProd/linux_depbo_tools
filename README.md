@@ -1,6 +1,6 @@
 # linux_depbo_tools
 
-Juste a git for simple import of makepbo to linux
+Juste a git for simple import of depbo-tools to linux
 
 ## How to deploy 
 
