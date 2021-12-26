@@ -21,7 +21,7 @@ Juste a git for simple import of depbo-tools to linux
 
 ## Utilisation
 
-- For create pbo : ```makepbo -N <LINK_TO_MISSION_DIRECTORY> <LINK_TO_GENERATION_DIRECTORY>```
+- For create pbo : ```makepbo -N <LINK_TO_MISSION_DIRECTORY>```
 - For extract pbo : ```extractpbo <LINK_TO_MISSION_PBO_FILE>```
 
 ## Copyright
