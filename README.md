@@ -11,8 +11,8 @@ Juste a git for simple import of depbo-tools to linux
 
 ### Install executables
 
-- Copy all elements of [bin](https://github.com/HuetJB/linux_makepbo/tree/main/depbo-tools-0.6.24/bin) to ```/bin``` of your linux server.
-- Copy all element of [lib](https://github.com/HuetJB/linux_makepbo/tree/main/depbo-tools-0.6.24/lib) to ```/usr/local/lib/``` of your linux server.
+- Move all elements of [bin](https://github.com/HuetJB/linux_makepbo/tree/main/depbo-tools-0.6.24/bin) to ```/usr/local/bin``` of your linux server.
+- Move all element of [lib](https://github.com/HuetJB/linux_makepbo/tree/main/depbo-tools-0.6.24/lib) to ```/usr/local/lib/``` of your linux server.
 
 ### Finish installation 
 
@@ -27,3 +27,4 @@ Juste a git for simple import of depbo-tools to linux
 ## Copyright
 
 L'outil initial "depbo-tools" à été crée par [Mikero](https://community.bistudio.com/wiki/Mikero_Tools)
+Lien du topic initial [Topic](https://securitronlinux.com/bejiitaswrath/how-to-extract-an-arma-3-pbo-file-on-linux-using-pbo-tools/)
