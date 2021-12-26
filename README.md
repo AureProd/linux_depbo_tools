@@ -16,8 +16,12 @@ Juste a git for simple import of depbo-tools to linux
 
 ### Finish installation 
 
-- Run this commande : ```cd /usr/local/lib/; sudo ln libdepbo.so.0.6.24 libdepbo.so.0```
-- Run this commande : ```sudo ldconfig```
+- Run this commande
+
+```
+$ cd /usr/local/lib/; chmod +x libdepbo.so.0*
+$ sudo ldconfig
+```
 
 ## Utilisation
 
