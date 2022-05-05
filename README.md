@@ -11,8 +11,8 @@ Juste a git for simple import of depbo-tools to linux
 
 ### Install executables
 
-- Move all elements of [bin](https://github.com/HuetJB/linux_makepbo/tree/main/depbo-tools-0.6.24/bin) to ```/usr/local/bin``` of your linux server.
-- Move all element of [lib](https://github.com/HuetJB/linux_makepbo/tree/main/depbo-tools-0.6.24/lib) to ```/usr/local/lib/``` of your linux server.
+- Move all elements of [bin](https://github.com/HuetJB/linux_makepbo/tree/main/bin) to ```/usr/local/bin``` of your linux server.
+- Move all element of [lib](https://github.com/HuetJB/linux_makepbo/tree/main/lib) to ```/usr/local/lib/``` of your linux server.
 
 ### Finish installation 
 
