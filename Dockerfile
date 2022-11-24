@@ -15,3 +15,5 @@ RUN chmod +rwx /usr/local/lib/libdepbo.so.0*
 RUN chmod +rwx /usr/local/bin/*
 
 RUN ldconfig
+
+# for build: docker build -t depbo:latest .

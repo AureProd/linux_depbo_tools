@@ -20,6 +20,8 @@ directory_name=$( echo $directory_link | rev | cut -d "/" -f 1 | rev)
 
 echo -e "${YELLOW}Création du pbo pour le dossier '${directory_link}'${RESET}"
 
+docker build -t depbo:latest 
+
 container_id=$(docker run --rm -d --workdir /app depbo:latest sleep infinity)
 
 echo -e "${YELLOW}Démarrage du container pour créer le pbo (id: ${container_id})${RESET}"

@@ -26,6 +26,8 @@ fi
 
 echo -e "${YELLOW}Extraction du pbo pour le fichier '${file_link}'${RESET}"
 
+docker build -t depbo:latest 
+
 container_id=$(docker run --rm -d --workdir /app depbo:latest sleep infinity)
 
 echo -e "${YELLOW}Démarrage du container pour extraire le pbo (id: ${container_id})${RESET}"
