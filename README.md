@@ -10,7 +10,7 @@ $ docker build -t depbo:latest .
 
 ## Utilisation
 
-- For create pbo : ```makepbo -N <LINK_TO_MISSION_DIRECTORY>```
+- For create pbo : ```makepbo.sh <LINK_TO_MISSION_DIRECTORY>```
 - For extract pbo : ```extractpbo.sh <LINK_TO_MISSION_PBO_FILE>```
 
 ## Copyright
