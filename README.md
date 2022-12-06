@@ -2,16 +2,21 @@
 
 Juste a git for simple import of depbo-tools to linux
 
-## How to deploy 
+## How to setup
 
-```
-$ docker build -t depbo:latest .
+```bash
+./setup.sh
 ```
 
 ## Utilisation
 
-- For create pbo : ```makepbo.sh <LINK_TO_MISSION_DIRECTORY>```
-- For extract pbo : ```extractpbo.sh <LINK_TO_MISSION_PBO_FILE>```
+```bash
+# For create pbo
+./makepbo.sh <LINK_TO_MISSION_DIRECTORY>
+
+# For extract pbo
+./extractpbo.sh <LINK_TO_MISSION_PBO_FILE>
+```
 
 ## Copyright
 
