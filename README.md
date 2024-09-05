@@ -1,25 +1,25 @@
-# linux_depbo_tools
+# Depbo tools for linux
 
-Juste a git for simple import of depbo-tools to linux
+Tool to pack and unpack folder in Arma 3 PBO file
 
-## How to setup
+## Build in docker image
 
 ```bash
-./setup.sh
+docker build -t depbo:latest .
 ```
 
-## Utilisation
+## Usage with docker
 
 ```bash
-# For create pbo
-./makepbo.sh <LINK_TO_MISSION_DIRECTORY>
+# To make pbo file
+./makepbo.sh <LINK_TO_FOLDER>
 
-# For extract pbo
-./extractpbo.sh <LINK_TO_MISSION_PBO_FILE>
+# To extract pbo file
+./extractpbo.sh <LINK_TO_PBO_FILE>
 ```
 
 ## Copyright
 
-L'outil initial "depbo-tools" à été crée par [Mikero](https://community.bistudio.com/wiki/Mikero_Tools)
+Original tool "depbo-tools" create by [Mikero](https://community.bistudio.com/wiki/Mikero_Tools)
 
-Lien du topic initial [Topic](https://securitronlinux.com/bejiitaswrath/how-to-extract-an-arma-3-pbo-file-on-linux-using-pbo-tools/)
+Link to original [Topic](https://securitronlinux.com/bejiitaswrath/how-to-extract-an-arma-3-pbo-file-on-linux-using-pbo-tools/)
